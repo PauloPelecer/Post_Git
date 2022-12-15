@@ -1,7 +1,7 @@
 from config import System
 
 
-profile = System.read_json('config/Profile/profile.json')
+profile = System.read_json('config/profile/Profile.json')
 
     
 '''
