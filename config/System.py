@@ -16,7 +16,7 @@ def read_json(arq):
 def upgrade_tool():
     pass
 def main():
-    profile = read_json('config/Profile/profile.json')
+    profile = read_json('config/profile/Profile.json')
     banner = f'''\033[0;36m
 ___██__________██
 ___█▒█________█▒█
@@ -43,7 +43,7 @@ ______█▒███▒██████__
     print(banner)
 
 def off():
-    profile = read_json('config/Profile/profile.json')
+    profile = read_json('config/profile/Profile.json')
     banner = f'''\033[0;36m
 ___██__________██
 ___█▒█________█▒█
@@ -83,7 +83,7 @@ def options():
     print (layot)
     
 if __name__ == '__main__':
-    response = carregar_json('Profile/profile.json')
+    response = carregar_json('profile/Profile.json')
     print (response)
 
 
